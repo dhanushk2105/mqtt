@@ -15,3 +15,5 @@ const server = app.listen(PORT, () => {
 server.on('error', (err) => {
   console.error('Express server error:', err);
 });
+
+export default app
